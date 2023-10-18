@@ -1,0 +1,303 @@
+#sec-two {
+    background-image: url("/assets/img/sativa.png");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    a {
+        color: white;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+}
+
+#sec-one {
+    background-color: #00798a;
+}
+
+.sec-one-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 80px 20px 180px 20px;
+    height: 100%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 80px;
+        margin: 20px 0;
+
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    button {
+        font-size: 18px;
+        color: #fff;
+        background-color: #fc4069;
+        border: 0;
+        outline: 0;
+        padding: 10px 16px;
+        margin: 20px 0;
+    }
+}
+
+#sec-two {
+    padding: 60px 0;
+}
+
+.sec-two-content {
+    h3 {
+        color: #00798a;
+        font-size: 40px;
+        margin: 20px 0;
+    }
+}
+
+.cards-top-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0px 40px;
+
+    h4 {
+        color: #333;
+        font-size: 30px;
+    }
+
+    p {
+        width: 90%;
+        line-height: 30px;
+    }
+}
+
+#sec-two .cards-bottom-content {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    .col-xl-3 {
+        padding: 30px 0;
+        background-color: #00798a;
+        margin: 0 auto;
+
+    }
+
+    i {
+        color: #fff;
+        margin: 10px 0;
+    }
+
+    h4 {
+        margin: 10px 0;
+    }
+
+    p {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+        line-height: 30px;
+    }
+}
+
+.sec-two-bottom-txt {
+    margin-top: 60px;
+    color: #333;
+
+    h3 {
+        color: #333;
+        font-size: 30px;
+    }
+
+    p {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+}
+
+#sec-three {
+    background-color: #00798a;
+    padding: 30px 0;
+
+    .sec-3-rows {
+        .col-xl-4 {
+            margin: 0 auto;
+        }
+
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-wrap: wrap;
+
+        h2 {
+            font-size: 60px;
+            letter-spacing: 1px;
+            color: #fff;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 22px;
+            color: #fff;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+    }
+}
+
+#sec-four {
+    .sec-four-card-bottom {
+        .cards-bottom-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .col-xl-3 {
+                text-align: center;
+                color: #858585;
+                width: 30% !important;
+
+                h3 {
+                    background-color: #000;
+                    color: #fff;
+                    font-weight: bold;
+                    margin: 0 auto;
+                    font-size: 20px;
+                    padding: 15px 0;
+                }
+
+                h5 {
+                    padding: 25px 0;
+                    margin: 20px 0;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+
+                h4 {
+                    background-color: #1f8a63;
+                    color: #fff;
+                    padding: 25px 0;
+                    font-size: 45px;
+                    margin: 10px 0;
+                }
+
+                button {
+                    width: 100%;
+                    border: 0;
+                    outline: none;
+                    padding: 10px 0px;
+                    color: #fff;
+                    background-color: #d9534f;
+                    font-size: 18px;
+                    margin: 20px 0;
+                }
+            }
+        }
+    }
+}
+
+#sec-five {
+    padding: 100px 0;
+    background-color: #00798a;
+
+    h3 {
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    h4 {
+        color: #fff;
+        font-size: 22px;
+        text-align: center;
+    }
+}
+
+#sec-six {
+    background: url("/assets/img/sativa.png");
+    padding: 60px 0;
+
+    h3 {
+        font-size: 40px;
+        color: #00798a;
+
+    }
+
+    textarea {
+        padding: 8px 12px;
+        background-color: transparent;
+        outline: none;
+        border-radius: 5px;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+    }
+
+    input {
+        background: transparent;
+        outline: none;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 49%;
+        padding: 6px 12px;
+    }
+
+    button {
+        background-color: #428bca;
+        outline: none;
+        border: 0;
+        border-radius: 5px;
+        padding: 6px 12px;
+        color: #fff;
+    }
+
+    span {
+        font-weight: 600
+    }
+
+    ;
+
+}
+
+footer {
+    background-color: #000;
+    padding: 20px 0;
+
+    .container {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        p{
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}
